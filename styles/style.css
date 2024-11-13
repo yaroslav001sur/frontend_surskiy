@@ -1,0 +1,7 @@
+@import "base/normalize.css";
+@import "blocks/header.css";
+@import "blocks/candidate.css";
+@import "blocks/recruiter.css";
+@import "blocks/connect.css";
+@import "blocks/job.css";
+@import "blocks/footer.css";
