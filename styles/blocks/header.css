@@ -1,0 +1,28 @@
+.page_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* Цвет фона */
+}
+
+.page_header img {
+    height: 40px; /* Высота логотипа */
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* Пробел между элементами навигации */
+}
+
+.header_button1, .header_button2 {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff; /* Цвет кнопок */
+    color: white;
+    cursor: pointer;
+}
+
+.header_button1:hover, .header_button2:hover {
+    background-color: #0056b3; /* Цвет кнопок при наведении */
+}

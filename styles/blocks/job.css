@@ -1,0 +1,14 @@
+.Job_section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Job_section h2 {
+    font-size: 2em; /* Размер заголовка */
+}
+
+.primary-button {
+    padding: 12px 20px;
+    background-color: #007bff; /* Цвет кнопки "Join Now" */
+    color: white;
+}

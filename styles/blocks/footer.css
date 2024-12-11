@@ -1,0 +1,12 @@
+.page_footer {
+    background-color: #f8f9fa; /* Цвет фона подвала */
+    padding: 20px;
+}
+
+.logo-footer img {
+    height: 40px; /* Высота логотипа в подвале */
+}
+
+.footer-links a {
+    margin-right: 15px; /* Пробел между ссылками в подвале */
+}

@@ -1,0 +1,22 @@
+.Recruiters_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.Recruiters_section img {
+    max-width: 100%; /* Адаптивность изображений */
+}
+
+.Recruiters_section h2 {
+    font-size: 2em; /* Размер заголовка */
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    flex-basis: 30%; /* Ширина блока с фичей */
+}

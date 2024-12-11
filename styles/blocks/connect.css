@@ -1,0 +1,13 @@
+.Connect_section {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.Connect_section img {
+    max-width: 50%; /* Максимальная ширина изображения */
+}
+
+.Connect_section h3 {
+    font-size: 1.8em; /* Размер заголовка */
+}
