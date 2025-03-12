@@ -1,14 +1,25 @@
-.Job_section {
-    text-align: center;
-    padding: 40px 20px;
+/* global.css */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.Job_section h2 {
-    font-size: 2em; /* Размер заголовка */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
 }
 
-.primary-button {
-    padding: 12px 20px;
-    background-color: #007bff; /* Цвет кнопки "Join Now" */
-    color: white;
+.header__content,
+.main .quote__content,
+.main .connect__content,
+.main .cta__content,
+.footer__content {
+    width: 90%;
+    max-width: 75rem;
+    margin: 0 auto;
 }

@@ -3,102 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head> 
-<body class="page">
-
-    <header class="page_header header">
-        <img src="img/Briefolio.co.svg">
-        <nav>
-            <ul>Jobly</ul>
-            <ul>For Recruiters</ul>
-            <ul><button class="header_button1">Sign Up</button></ul>
-            <ul><button class="header_button2">Log In</button></ul>
+    <title>Jobly</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/base/swiper-bundle.min.css"/>
+</head>
+<body>
+<!-- Preloader -->
+<div class="preloader">
+    <div class="preloader__spinner"></div>
+</div>
+<!-- Header -->
+<header class="header">
+    <div class="header__content">
+        <div class="header__logo">
+            <img class="header__logo-img" alt="Jobly Logo" src="img/logo.svg">
+        </div>
+        <nav class="header__nav">
+            <a href="#" class="header__nav-link">For Recruiters</a>
+            <a href="#" class="header__nav-link header__nav-link--sign-up">Sign Up</a>
+            <a href="#" class="header__nav-link header__nav-link--log-in">Log in</a>
         </nav>
-    </header>
-
-    <main>
-        <section class="Candidates_section">
-            <div class="container">
-                <h1>Candidates with Creative & Engineering Backgrounds</h1>
-                <p>This is the place to show yourself and land entry level jobs at cutting-edge companies. Launch your career here.</p>
-                <a href="#" class="btn-primary">Join Now</a>
-                <p><a href="#">Looking for candidates? Hire now</a></p>
-            </div>
-
-            <div class="image">
-                <img src="img/Rectangle 2.png" alt="Team working" class="main-image">
-            </div>
-
-        </section>
-    
-
-        <section class="Recruiters_section">
-            <div class="container">
-                <img src="img/Mask.png">
-                <div>
-                    <p>Creating an Online Presence is Hard. Jobly Makes it Easy for Recruiters to See you</p>
-                    <p>Zhao Cui, Founder at Jobly.co</p>
-                    <h2>Everything you want to know in one place.</h2>
-                </div>
-                <img src="img/Ellipse 512.png" alt="Profile of Pristia Candra">
-            </div>
-
-            <div class="image2">
-                <img src="img/Frame 1625.png" alt="Profile of Pristia Candra">
-            </div>
-
-            <div class="columns">
-                <div class="feature">
-                    <h3>Professional Profile</h3>
-                    <p>We know finding the right job is stressful, so weвЂ™ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
-                </div>
-                <div class="feature">
-                    <h3>Best Portfolio</h3>
-                    <p>We know finding the right job is stressful, so weвЂ™ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
-                </div>
-                <div class="feature">
-                    <h3>Powerful Resume</h3>
-                    <p>We know finding the right job is stressful, so weвЂ™ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by</p>
-                </div>
-            </div>
-
-        </section>
-    
-
-        <section class="Connect_section">
-            <div class="container">
-                <img src="img/Frame 427320330.png" alt="Connect with Recruiter">
-                <div>
-                    <h3>Connect With Recruiter</h3>
-                    <p>Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
-                </div>
-            </div>
-        </section>
-    
-
-        <section class="Job_section">
-            <div class="container">
-                <h2>Set up your profile.
-                    Let jobs find you.</h2>
-                <button class="primary-button">Join Now</button>
-                <img src="img/Rectangle 15.png">
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="page_footer">
-        <div class="container">
-            <div class="logo-footer"><img src="img/Jobly.co.png"></div>
-            <p>We support a pool of diverse young creatives and engineers. </p>
-            <p>В© 2023 Jobly.co Copyright and All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#">Terms and Conditions</a>
-                <a href="#">Privacy Policy</a>
+    </div>
+</header>
+<main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Candidates with Creative & Engineering Backgrounds</h1>
+            <p class="hero__text">This is the place to show yourself and land entry level jobs at cutting-edge companies. Launch your career here.</p>
+            <a href="#" class="hero__cta hero__cta--can">Join Now</a>
+            <p class="hero__text">Looking for candidates? <a href="#" class="hero__link">Hire now</a></p>
+            <div class="hero__gradient">
+                <img class="hero__image" alt="Hero Image" src="img/hero-image.png">
             </div>
         </div>
-    </footer>
+    </section>
+    <!-- Quote Section -->
+    <section class="quote">
+        <div class="quote__content">
+            <img class="quote__icon" alt="Quote Icon" src="img/mask.png">
+            <div class="quote__author">
+                <img src="img/avatar.png" alt="Zhao Cui" class="quote__author-photo">
+                <blockquote class="quote__text">
+                    <p>Creating an Online Presence is Hard.</p>
+                    <p>Jobly Makes it Easy for Recruiters to See You.</p>
+                </blockquote>
+                <p class="quote__author-name">Zhao Cui</p>
+                <span class="quote__author-title">Founder at Jobly.co</span>
+            </div>
+        </div>
+    </section>
+    <!-- Info Section -->
+    <section class="info">
+        <h2 class="info__title">Everything you want to know in one place.</h2>
+        <div class="info__card-display"></div>
+        <div class="info__features-slider">
+            <div class="info__feature">
+                <h3 class="info__feature-title">Professional Profile 1</h3>
+                <p class="info__feature-text">1. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+            </div>
+            <div class="info__feature">
+                <h3 class="info__feature-title">Professional Profile 2</h3>
+                <p class="info__feature-text">2. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+            </div>
+            <div class="info__feature">
+                <h3 class="info__feature-title">Professional Profile 3</h3>
+                <p class="info__feature-text">3. We know finding the right job is stressful, so we’ve made it simple. It only takes a few minutes. Create a free portfolio on briefolio to show your best self and get discovered by recruiter</p>
+            </div>
+        </div>
+    </section>
+    <!-- Connect Section -->
+    <section class="connect">
+        <div class="connect__content">
+            <img class="connect__image" alt="Connect Image" src="img/connect-image.png">
+            <div class="connect__text">
+                <h3 class="connect__title">Connect With Recruiter</h3>
+                <p class="connect__description">Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Section -->
+    <section class="slider">
+        <h3 class="slider__title">Connect With Slider</h3>
+        <p class="slider__text">Get instant access to a curated pool of top creative & tech talent actively seeking their next role. Find highly qualified job!</p>
+        <div class="swiper-wrapper-container">
+            <div class="swiper-button swiper-button-prev"></div>
+            <div class="swiper-container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/info-image.png" alt="Image 1"></div>
+                        <div class="swiper-slide"><img src="img/hero-image.png" alt="Image 2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button swiper-button-next"></div>
+        </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta__content">
+            <div class="cta__text">
+                <h2 class="cta__title">Set up your profile. Let jobs find you.</h2>
+                <a href="#" class="cta__cta-button cta__cta-button--primary">Join Now</a>
+            </div>
+            <img class="cta__image" alt="CTA Image" src="img/job-image.png">
+        </div>
+    </section>
+</main>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__left">
+            <img class="footer__logo" alt="Jobly Logo" src="img/logo2.png">
+            <p class="footer__text">We support a pool of diverse young creatives and engineers.</p>
+            <p class="footer__text">© 2023 Jobly.co Copyright and All rights reserved.</p>
+        </div>
+        <div class="footer__right">
+            <a href="#" class="footer__link">Terms and Conditions</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+<!-- Form -->
+<div class="modal-overlay modal-overlay--hidden">
+    <div class="modal">
+        <form class="modal__form">
+            <h2 class="modal__title">Login/Register</h2>
+            <label for="name" class="modal__label">Name:</label>
+            <input type="text" id="name" name="name" class="modal__input" required>
+            <label for="email" class="modal__label">Email:</label>
+            <input type="email" id="email" name="email" class="modal__input" required>
+            <label for="password" class="modal__label">Password:</label>
+            <input type="password" id="password" name="password" class="modal__input" required>
+            <div class="modal__buttons">
+                <button type="submit" class="modal__button modal__button--primary">OK</button>
+                <button type="button" class="modal__button modal__button--secondary modal__button--cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="scripts/swiper-bundle.min.js"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
