@@ -1,11 +1,14 @@
 @import "base/normalize.css";
 /* @import "base/reset.css" */
 
-/* preloader */
-@import "blocks/preloader.css";
+/* candidate */
+@import "blocks/candidate.css";
 
-/* global */
-@import "blocks/global.css";
+/* connect */
+@import "blocks/connect.css";
+
+/* footer */
+@import "blocks/footer.css";
 
 /* header */
 @import "blocks/header.css";
@@ -13,26 +16,23 @@
 /* hero */
 @import "blocks/hero.css";
 
-/* quote */
-@import "blocks/quote.css";
-
 /* info */
 @import "blocks/info.css";
 
-/* connect */
-@import "blocks/connect.css";
+/* job.css */
+@import "blocks/job.css";
 
-/* slider */
-@import "blocks/slider.css";
+/* preloader.css */
+@import "blocks/preloader.css";
 
-/* cta */
-@import "blocks/cta.css";
+/* quote.css */
+@import "blocks/quote.css";
 
-/* footer */
-@import "blocks/footer.css";
-
-/* form */
-@import "blocks/form.css";
+/* recruiter.css */
+@import "blocks/recruiter.css";
 
 /* responsive */
 @import "blocks/responsive.css";
+
+/* slider */
+@import "blocks/slider.css";
