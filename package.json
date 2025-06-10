@@ -1,0 +1,15 @@
+{
+  "name": "frontend_surskiy",
+  "version": "1.0.0",
+  "description": "курс по фронтенду\r https://www.figma.com/design/u1fHPkVcFOPQjcQq3ZSnmr/Web.Jobly?node-id=0-1&node-type=canvas&t=amQssuacjmWb3rVL-0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
