@@ -67,10 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
             prevEl: '.swiper-button-prev',
         },
     });
-
-
-
-
     //Модуль 2, задание 2.2
     const modalOverlay = document.querySelector('.modal-overlay');
     const cancelButtons = document.querySelectorAll('.cancel-button, .modal-overlay');
@@ -107,15 +103,8 @@ window.addEventListener("load", () => {
     }, 1000);
 });
 
-
-
-
-
-
-
 /*Модуль 2, задание 3*/
-// let cards = [];
-
+let cards = [];
 fetch('https://jsonplaceholder.typicode.com/posts?_limit=3')
     .then(response => response.json())
     .then(json => {
@@ -144,7 +133,7 @@ function createCardTemplate({ title, description, image }) {
 }
 
 function displayCard(cardData) {
-     const cardDisplay = document.querySelector('.info__card-display');
+    const cardDisplay = document.querySelector('.info__card-display');
     if (!cardDisplay) return;
     cardDisplay.innerHTML = createCardTemplate(cardData);
 }
@@ -153,11 +142,11 @@ function handleFeatureClicks() {
 
     features.forEach((feature, index) => {
         feature.addEventListener('click', () => {
-             features.forEach(f => f.classList.remove('info__feature--active'));
+            features.forEach(f => f.classList.remove('info__feature--active'));
             feature.classList.add('info__feature--active');
             if (cards[index]) {
                 displayCard(cards[index]);
             }
         });
     });
-    };
+};
