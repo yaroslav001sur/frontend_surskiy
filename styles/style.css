@@ -1,8 +1,8 @@
 @import "base/normalize.css";
 /* @import "base/reset.css" */
 
-/* candidate */
-@import "blocks/candidate.css";
+/* form */
+@import "blocks/form.css";
 
 /* connect */
 @import "blocks/connect.css";
@@ -19,8 +19,8 @@
 /* info */
 @import "blocks/info.css";
 
-/* job.css */
-@import "blocks/job.css";
+/* global.css */
+@import "blocks/global.css";
 
 /* preloader.css */
 @import "blocks/preloader.css";
@@ -28,8 +28,8 @@
 /* quote.css */
 @import "blocks/quote.css";
 
-/* recruiter.css */
-@import "blocks/recruiter.css";
+/* cta.css */
+@import "blocks/cta.css";
 
 /* responsive */
 @import "blocks/responsive.css";
