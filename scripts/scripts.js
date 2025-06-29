@@ -42,4 +42,13 @@ window.addEventListener("load", function () {
       });
     }
   });
-  
+  new Swiper('.swiper', {
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    centeredSlides: true, // Центрировать активный слайд
+    slidesPerView: 'auto', // Показывать только один слайд
+    spaceBetween: 0 // Убрать отступы между слайдами
+});
